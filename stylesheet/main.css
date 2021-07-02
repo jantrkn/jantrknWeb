@@ -1,14 +1,18 @@
 /* positioning */
 .wrapper{
-    padding: 6%;
     display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: 40% 60%;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 30% 70%;
+}
+.box{
+    padding: 6%;
+    grid-column: 1;
+    grid-row: 1/2;
 }
 .name{
     grid-column: 1;
     grid-row: 1;
-    font-size: 500%;
+    font-size: 400%;
 }
 .list{
     grid-column: 1;
@@ -16,13 +20,12 @@
     font-size: 300%;
 }
 .side{
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 2/3;
+    grid-row: 1/2;
     text-decoration: none;
     list-style: none;
     text-align: right;
     font-size: 200%;
-    padding-top: 9%;
 }
 
 
@@ -32,7 +35,7 @@ body{
     background-color: black;
     color: white; 
     list-style: none;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 a{
     text-decoration: none;
