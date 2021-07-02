@@ -1,0 +1,53 @@
+/* positioning */
+.wrapper{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 40% 60%;
+}
+.name{
+    grid-column: 1;
+    grid-row: 1;
+}
+.list{
+    grid-column: 1;
+    grid-row: 2;
+}
+.side{
+    grid-column: 2;
+    grid-row: 1;
+    text-decoration: none;
+    text-align: right;
+    list-style: none;
+}
+
+/* style */
+body{
+    font-family: "Courier New", Courier, monospace;
+    background-color: black;
+    color: white; 
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 48px;
+}
+
+/* interaction */
+.name:hover{
+    color: greenyellow;
+}
+.list1:hover{
+    color: greenyellow;
+}
+.list2:hover{
+    color: greenyellow;
+}
+.list3:hover{
+    color: greenyellow;
+}
