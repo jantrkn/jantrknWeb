@@ -1,5 +1,6 @@
 /* positioning */
 .wrapper{
+    padding: 6%;
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 40% 60%;
@@ -7,10 +8,12 @@
 .name{
     grid-column: 1;
     grid-row: 1;
+    font-size: 80px;
 }
 .list{
     grid-column: 1;
     grid-row: 2;
+    font-size: 65px;
 }
 .side{
     grid-column: 2;
@@ -18,6 +21,11 @@
     text-decoration: none;
     text-align: right;
     list-style: none;
+    font-size: 30px;
+    padding-top: 9%;
+}
+ul.side > li:hover{
+    color: red;
 }
 
 /* style */
@@ -26,28 +34,23 @@ body{
     background-color: black;
     color: white; 
     list-style: none;
+    overflow: hidden;
 }
 a{
     text-decoration: none;
     color: inherit;
 }
-h1{
-    font-size: 60px;
-}
-p{
-    font-size: 48px;
-}
 
 /* interaction */
 .name:hover{
-    color: greenyellow;
+    color: red;
 }
 .list1:hover{
-    color: greenyellow;
+    color: red;
 }
 .list2:hover{
-    color: greenyellow;
+    color: red;
 }
 .list3:hover{
-    color: greenyellow;
+    color: red;
 }
