@@ -24,9 +24,7 @@
     font-size: 200%;
     padding-top: 9%;
 }
-ul.side > li:hover{
-    color: red;
-}
+
 
 /* style */
 body{
@@ -45,12 +43,9 @@ a{
 .name:hover{
     color: red;
 }
-.list1:hover{
+p.list > a:hover{
     color: red;
 }
-.list2:hover{
-    color: red;
-}
-.list3:hover{
+ul.side > li:hover{
     color: red;
 }
