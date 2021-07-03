@@ -1,0 +1,117 @@
+/* positioning */
+.wrapper{
+    display: grid;
+    grid-template-columns: 42% 42% 16%;
+    grid-template-rows: 15% 10% 25% 10% 25% 15%;
+}
+/* .box{
+    padding: 6%;
+    grid-column: 1/3;
+    grid-row: 1/6;
+} */
+.title{
+    grid-column: 1/3;
+    grid-row: 1;
+    /* font-size: 400%; */
+}
+.cs{
+    grid-column: 1;
+    grid-row: 2;
+}
+.math{
+    grid-column: 2;
+    grid-row: 2;
+}
+.proj{
+    grid-column: 2;
+    grid-row: 4;
+}
+.cslist{
+    grid-column: 1;
+    grid-row: 3/6;
+    /* font-size: 300%; */
+}
+.mathlist{
+    grid-column: 2;
+    grid-row: 3/4;
+    
+    /* font-size: 300%; */
+}
+.projlist{
+    grid-column: 2;
+    grid-row: 5;
+    /* font-size: 300%; */
+}
+.bckbttn{
+    grid-column: 1;
+    grid-row: 6/7;
+    padding: 5%;
+}
+.side{
+    grid-column: 3;
+    grid-row: 1/4;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    font-size: 200%;
+}
+
+.bio{
+    grid-column: 1;
+    grid-row: 2/3;
+}
+.biolist{
+    grid-column: 1;
+    grid-row: 3/6;
+    /* font-size: 300%; */
+}
+.art{
+    grid-column: 1;
+    grid-row: 2/3;
+}
+.artlist{
+    grid-column: 1;
+    grid-row: 3/6;
+    /* font-size: 300%; */
+}
+.projart{
+    grid-column: 2;
+    grid-row: 2;
+}
+.projlistart{
+    grid-column: 2;
+    grid-row: 3;
+    /* font-size: 300%; */
+}
+.projcs{
+    grid-column: 2;
+    grid-row: 4;
+}
+.projlistcs{
+    grid-column: 2;
+    grid-row: 5;
+    /* font-size: 300%; */
+}
+/* style */
+body{
+    font-family: "Courier New", Courier, monospace;
+    background-color: black;
+    color: white; 
+    list-style: none;
+    /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* interaction */
+.name:hover{
+    color: red;
+}
+p.list > a:hover{
+    color: red;
+}
+ul.side > li:hover{
+    color: red;
+}
